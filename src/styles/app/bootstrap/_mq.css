@@ -1,0 +1,4 @@
+@custom-media --small (width < 30em);
+@custom-media --default (width >= 30em) and (width < 50em);
+@custom-media --wide (width >= 50em) and (width < 68.75em);
+@custom-media --widest (width >= 68.75em);

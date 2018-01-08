@@ -1,0 +1,22 @@
+@define-mixin font $name, $color, $size: medium {
+    font-family: $name;
+    font-size: $size;
+    color: $color;
+}
+
+@define-mixin antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@define-mixin text-replacement {
+    text-indent: 105%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@define-mixin truncate-tail {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,91 @@
+.call-to-action {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 40px);
+
+    @media (--small), (--default), (--wide) {
+        padding: calc(200/1100*100%) calc(50/1100*100%);
+    }
+
+    @media (--widest) {
+        padding: 200px 50px;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        margin: auto;
+        max-width: 1100px;
+    }
+
+    &__content--mobile {
+        @media (--wide), (--widest) {
+            display: none;
+        }
+    }
+
+    &__content--desktop {
+        @media (--small), (--default) {
+            display: none;
+        }
+    }
+
+    &__title {
+        @mixin title;
+        text-align: center;
+    }
+
+    &__subtitle {
+        @mixin bodytext;
+        text-align: center;
+        color: var(--light-text-color);
+        margin-top: 15px;
+    }
+
+    &__action-button {
+        @mixin button;
+        margin: 40px 0 0 0;
+        padding: 22px 100px 20px 100px;
+        background-color: var(--blue-color);
+    }
+
+    &__action-button:hover {
+        background-color: var(--green-color);
+    }
+
+    &__animation {
+        position: absolute 0 * * 0;
+        size: 100%;
+        overflow: visible;
+        z-index: -1;
+    }
+
+    &__animation svg:nth-of-type(1) {
+        position: absolute -60vw * * -60vw;
+        size: 120vw;
+        animation: rotate-square-animation-01 175s linear infinite;
+    }
+
+    &__animation svg:nth-of-type(2) {
+        position: absolute * -50vh -50vh *;
+        size: 100vh;
+        animation: rotate-square-animation-01 175s linear infinite;
+    }
+
+    &__animation svg:nth-of-type(3) {
+        position: absolute -75vw -75vw * *;
+        size: 150vw;
+        animation: rotate-square-animation-01 175s linear infinite;
+    }
+
+    &__animation svg > path {
+        fill: none;
+        stroke: var(--default-dot-color);
+        stroke-width: 2;
+        stroke-dasharray: 1, 20;
+        vector-effect: non-scaling-stroke;
+    }
+}

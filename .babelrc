@@ -1,0 +1,16 @@
+{
+	"presets": [
+		["env", {
+			"targets": {
+				"browsers": ["last 2 versions", "safari >= 7"]
+            },
+            "debug": true
+        }],
+        "stage-2"
+	],
+
+	"plugins": [
+        "babel-plugin-transform-runtime",
+        "transform-decorators-legacy"
+    ]
+}

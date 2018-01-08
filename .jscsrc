@@ -1,0 +1,10 @@
+{
+    "preset": "airbnb",
+    "excludeFiles": ["./gulp-tasks/**"],
+    "validateIndentation": false,
+    "disallowArrayDestructuringReturn": false,
+    "disallowMultipleVarDecl": false,
+    "maximumLineLength": false,
+    "requireDollarBeforejQueryAssignment": false,
+    "requireShorthandArrowFunctions": false,
+}

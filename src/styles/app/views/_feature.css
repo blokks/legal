@@ -1,0 +1,126 @@
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        background: linear-gradient(to right, var(--default-dot-color) 5%, transparent 0%) bottom repeat-x;
+        background-size: 19px 1px;
+
+    @media (--small), (--default) {
+        padding: calc(200/1100*100%) calc(50/1100*100%);
+    }
+
+    @media (--wide), (--widest) {
+        padding: 200px 50px;
+    }
+
+    @media (--wide), (--widest) {
+    }
+
+    &__content {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1100px;
+
+        @media (--small), (--default) {
+            flex-direction: column;
+        }
+
+        @media (--wide), (--widest) {
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    }
+
+    &__info {
+        @media (--wide), (--widest) {
+            flex: 1;
+        }
+    }
+
+    &__title {
+        @mixin title;
+
+        @media (--small), (--default) {
+            margin-top: 20px;
+        }
+
+        @media (--wide), (--widest) {
+            margin-top: 10px;
+        }
+    }
+
+    &__subtitle {
+        @mixin subtitle;
+        margin-top: 15px;
+    }
+
+    &--manage &__subtitle {
+        color: var(--blue-color);
+    }
+
+    &--embed &__subtitle {
+        color: var(--pink-color);
+    }
+
+    &--developers &__subtitle {
+        color: var(--green-color);
+    }
+
+    &__description {
+        @mixin bodytext;
+        color: var(--light-text-color);
+        margin-top: 30px;
+    }
+
+   &__features {
+        @mixin listitem;
+        margin: 30px 0 0 0;
+        padding: 0 0 0 15px;
+
+        color: var(--light-text-color);
+        list-style-type: square;
+    }
+
+    &__features > li {
+        margin: 0;
+        padding: 0 0 0 10px;
+    }
+
+    &__media {
+        position: relative;
+        flex: 2;
+
+        @media (--small), (--default) {
+            order: -1;
+        }
+    }
+
+    &:nth-of-type(even) &__media {
+        @media (--wide), (--widest) {
+            margin-left: 6.25%;
+        }
+    }
+
+    &:nth-of-type(odd) &__media {
+        @media (--wide), (--widest) {
+            margin-right: 6.25%;
+            order: -1;
+        }
+    }
+
+    &__animation-container:before {
+        display: block;
+        padding-top: calc(800/1280*100%);
+        content: '';
+    }
+
+    &__animation-container svg {
+        position: absolute 0 * * 0;
+        size: 100%;
+        margin:  0;
+        overflow: hidden;
+    }
+}

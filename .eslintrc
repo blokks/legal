@@ -1,0 +1,40 @@
+{
+	"parser": "babel-eslint",
+	"extends": ["airbnb", "prettier"],
+	"plugins": ["compat", "prettier"],
+	"globals": {
+		"document": true,
+		"window": true
+	},
+	"env": {
+		"browser": true
+	},
+	"rules": {
+		"prettier/prettier": [
+			1,
+			{
+				"useTabs": true,
+				"singleQuote": true,
+				"trailingComma": "all"
+			}
+		],
+		"class-methods-use-this": 0,
+		"global-require": 0,
+		"import/first": 0,
+		"import/no-extraneous-dependencies": 0,
+		"import-no-resolve": 0,
+		"import/prefer-default-export": 0,
+		"no-param-reassign": 0,
+		"no-return-assign": 0,
+		"no-shadow": 1,
+		"no-use-before-define": 0,
+		"react/jsx-indent": 0,
+		"react/jsx-indent-props": [2, "tab"],
+		"react/no-find-dom-node": 1,
+		"react/prefer-stateless-function": 0,
+		"react/prop-types": 0,
+		"react/sort-comp": 0,
+		"react/jsx-wrap-multilines": 0,
+		"react/jsx-closing-bracket-location": [1, "after-props"]
+	}
+}

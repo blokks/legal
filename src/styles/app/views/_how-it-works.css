@@ -1,0 +1,32 @@
+.how-it-works {
+    @media (--wide), (--widest) {
+        border-top: 1px solid var(--default-stroke-color);
+    }
+
+    &__header {
+        @media (--small), (--default), (--wide) {
+            padding: calc(200/1100*100%) 0 0;
+        }
+
+        @media (--widest) {
+            padding: 200px 0 0;
+        }        
+    }
+
+    &__shortcut {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @mixin subtitle;
+        color: var(--light-text-color);
+    }
+
+    svg {
+        margin-top: 15px;
+        size: 14px 7px;
+        fill:  currentcolor;
+    }
+}
+
+@import 'feature';
