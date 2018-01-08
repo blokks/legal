@@ -27,6 +27,10 @@ p {
     color:  var(--light-text-color);
 }
 
+p {
+    margin: 20px 0;
+}
+
 *, *:after, *:before {
     box-sizing: border-box;
 }
