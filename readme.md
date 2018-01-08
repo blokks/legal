@@ -1,4 +1,4 @@
-Blokks Brochure
+Blokks Legal
 ===
 
 Requirements (need to be callable on your path)
@@ -9,7 +9,7 @@ Requirements (need to be callable on your path)
 
 Install
 -------
-1. `$ git clone https://github.com/patrickpietens/blokks-brochure.git`
+1. `$ git clone https://github.com/patrickpietens/blokks-legal.git`
 2. `$ nvm install`
 3. `$ npm run setup`
 

@@ -8,7 +8,7 @@
         <title>@yield('title')</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-        <link href='{{ url('/brochure/dist/styles/screen.css') }}' rel='stylesheet'>
+        <link href='{{ url('/legal/dist/styles/screen.css') }}' rel='stylesheet'>
         <link href='{{ static_url('images/favicon.png') }}' rel='shortcut icon' type='image/x-icon'>
 
         <!-- Standard -->
@@ -22,14 +22,14 @@
         <meta itemprop='description' content='@lang('brochure.social.description')'>
         <meta itemprop='url' content='https://blokks.co'>
         <meta itemprop='keywords' content='@lang('brochure.social.keywords')'>
-        <meta itemprop='image' content='{{ url("/brochure/dist/images/og.png") }}'>
+        <meta itemprop='image' content='{{ url("/legal/dist/images/og.png") }}'>
         <meta itemprop='sourceOrganization' content='Blokks'>
         <meta itemprop='inLanguage' content='en-US'>
 
         <!-- OpenGraph -->
         <meta property='og:title' content='Blokks'>
         <meta property='og:description' content='@lang('brochure.social.description')'>
-        <meta property='og:image' content='{{ url("/brochure/dist/images/og.png") }}'/>
+        <meta property='og:image' content='{{ url("/legal/dist/images/og.png") }}'/>
         <meta property='og:type' content='website'>
         <meta property='og:url' content='{{ url() }}'>
         <meta property='og:site_name' content='Blokks' />
@@ -40,7 +40,7 @@
         <meta name='twitter:description' content='@lang('brochure.social.description')' />
         <meta name='twitter:card' content='summary_large_image'>
         <meta name='twitter:site' content='@BlokksHQ'>
-        <meta name='twitter:image:src' content='{{ url("/brochure/dist/images/og.png") }}' />
+        <meta name='twitter:image:src' content='{{ url("/legal/dist/images/og.png") }}' />
 
         @stack('styles')
     </head>
@@ -51,9 +51,6 @@
             @yield('content')
 
         </main>
-
-        <script src='{{ url('/brochure/dist/scripts/vendor/SnapSVGAnimator.js') }}'></script>
-        <script src='{{ url('/brochure/dist/scripts/index.js') }}'></script>
 
         <script>
             (function(h,o,t,j,a,r){

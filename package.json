@@ -1,11 +1,11 @@
 {
-  "name": "blokks-brochure",
-  "version": "2.0.0",
+  "name": "blokks-legal",
+  "version": "1.0.0",
   "description": "",
   "main": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/patrickpietens/blokks-onboarding.git"
+    "url": "https://github.com/patrickpietens/blokks-legal.git"
   },
   "scripts": {
     "reset": "find node_modules/* -type 'd' | grep -v 'pikaday' | xargs rm -rf  && npm install && cd node_modules && ln -s ../src/scripts/app app && cd ..",
@@ -96,17 +96,5 @@
     "watchify": "3.9.0",
     "yamlify": "^0.1.3"
   },
-  "dependencies": {
-    "addlistener.js": "^1.0.8",
-    "detect-it": "^3.0.4",
-    "director": "^1.2.8",
-    "howler": "^2.0.5",
-    "jump.js": "^1.0.2",
-    "lazysizes": "^4.0.1",
-    "lodash.throttle": "^4.1.1",
-    "picturefill": "^3.0.2",
-    "queryselector.js": "^1.0.3",
-    "snapsvg": "^0.5.1",
-    "svg4everybody": "^2.1.9"
-  }
+  "dependencies": {}
 }

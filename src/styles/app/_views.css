@@ -1,12 +1,3 @@
-@import 'views/navigation';
-@import 'views/header';
-@import 'views/how-it-works';
-@import 'views/showcase';
-@import 'views/pricing';
-@import 'views/poster';
-@import 'views/call-to-action';
-@import 'views/footer';
-
 html {
     font-size: 62.5%;
 }
@@ -16,15 +7,6 @@ body {
     padding: 0;
     background-color: var(--default-background-color);
     scroll-behavior: smooth;
-}
-
-main {
-    min-width: 320px;
-    overflow: hidden;
-}
-
-main.loading {
-    visibility: hidden;
 }
 
 *, *:after, *:before {
