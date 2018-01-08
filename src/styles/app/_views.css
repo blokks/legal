@@ -9,6 +9,24 @@ body {
     scroll-behavior: smooth;
 }
 
+main {
+    max-width: 800px;
+}
+
+h1 {
+    @mixin title;
+}
+
+h2 {
+    @mixin subtitle;
+
+}
+
+p {
+    @mixin bodytext;
+    color:  var(--light-text-color);
+}
+
 *, *:after, *:before {
     box-sizing: border-box;
 }
