@@ -5,14 +5,14 @@
 }
 
 @define-mixin subtitle {
-    @mixin blokks-sans 20px/1.4;
+    @mixin blokks-sans 18px/1.4;
     color: inherit;
     text-decoration: none;
     color: var(--lightest-text-color);
 }
 
 @define-mixin bodytext {
-    @mixin blokks-sans 16px;
+    @mixin blokks-sans 14px;
     line-height: 1.67;
     color: var(--light-text-color);
 }
@@ -20,4 +20,11 @@
 @define-mixin listitem {
     @mixin blokks-mono 15px/1.86;
     color: inherit;
+}
+
+@define-mixin link {
+    @mixin blokks-mono 14px/1.86;
+    color: inherit;
+    text-decoration: none;
+    color: var(--blue-color);
 }
