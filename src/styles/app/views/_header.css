@@ -1,0 +1,21 @@
+.header {
+	position: fixed 0 * * 0;
+	size: 100% 40px;
+
+    @supports not (backdrop-filter: blur(4px)) {
+        background-color: var(--default-background-color);
+    }	
+
+    @supports (backdrop-filter: blur(4px)) {
+        background-color: color(var(--default-background-color) alpha(85%));
+        backdrop-filter: blur(4px)
+    }
+
+	&__logo {
+		size: 240px 40px;
+	}
+
+	&__logo path {
+		fill: #000;
+	}
+}

@@ -47,7 +47,7 @@
 
     <body>
         <main class='loading @yield('className')'>
-
+        
             @yield('content')
 
         </main>

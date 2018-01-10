@@ -10,29 +10,9 @@ body {
 }
 
 main {
-    max-width: 600px;
-}
-
-h1 {
-    @mixin title;
-}
-
-h2 {
-    @mixin subtitle;
-}
-
-p {
-    @mixin bodytext;
-    color: var(--light-text-color);
-    margin: 20px 0;
-}
-
-h2 + p {
-    margin-top: 10px;
-}
-
-a {
-    @mixin link;
+    margin:  0 auto;
+    padding: 140px 10px;
+    max-width: 620px;
 }
 
 *,
@@ -42,7 +22,9 @@ a {
 }
 
 ::selection {
-    background-color: var(--light-background-color);
-    color: var(--lightest-text-color);
     text-shadow: none;
 }
+
+@import 'views/header';
+@import 'views/navigation';
+@import 'views/content';

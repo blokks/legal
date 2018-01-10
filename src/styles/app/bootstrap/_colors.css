@@ -1,13 +1,6 @@
 :root {
-    --default-background-color: #282b2f;
-    --light-background-color: #abb1bc;
-    --lightest-background-color: #e2e4e6;
-    --placeholder-background-color: #34353a;
-
-    --dark-text-color: #8a8f98;
-    --darkest-text-color: #282b2f;
-    --light-text-color: #abb1bc;
-    --lightest-text-color: #fff;
+    --default-background-color: #abb1bc;
+    --default-text-color: #282B2F;
 
     --default-stroke-color: #8a8f98;
     --default-dot-color: #696e76;

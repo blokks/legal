@@ -1,0 +1,19 @@
+.navigation {
+	&__item {
+	    @mixin blokks-sans 16px/1.75;
+	    text-decoration: none;
+	}
+
+	&__item:last-child {
+		margin-left: 20px;
+	}
+
+	&__item:not(&__item--selected) {
+	    color: var(--purple-color);
+		border-bottom: 1px solid;				
+	}
+
+	&__item--selected {
+	    color: var(--default-text-color);
+	}
+}
