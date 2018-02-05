@@ -96,6 +96,14 @@
 
 		<hr/>
 
+		<h2>Pricing</h2>
+
+		<p>Blokks will provide a full refund if you choose to cancel the purchase of your Blokks upgrade (the “Upgrade”) before the starting date of the upgraded event, if you send a notice in writing to hq@blokks.co. The cancellation will be effective upon receiving the notice (the “Cancellation Date”). If you choose to cancel the Upgrade after the starting date of the upgraded event, you are not entitled to any refund for any fees paid for the Upgrade.</p>
+
+		<p>Any refund will be paid within 30 days of the Cancellation Date, provided your written notice of cancellation includes your username, event name and full name as it appears on your account or on your credit card.</p>
+
+		<hr/>
+
 		<h2>Indemnity</h2>
 
 		<p>You, agree to defend, indemnify and hold Blokks, its affiliates and its sponsors, partners, other co-branders and the respective directors, officers and employees of each harmless from and against any and all claims, losses, damages, liabilities and costs (including, without limitation, reasonable attorneys' fees and court costs) arising out of or relating to your breach of any of these Terms or use by you or any third party of the Service. Blokks reserves the right, at its own expense, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you.</p>
