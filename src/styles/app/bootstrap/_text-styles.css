@@ -14,18 +14,18 @@
 
     @media (--widest) {
         font-size: 34px;
-    }    
+    }
 }
 
 @define-mixin subtitle {
-    @mixin blokks-sans 18px;
+    @mixin blokks-sans 20px;
     color: inherit;
     text-decoration: none;
     color: var(--default-text-color);
 }
 
 @define-mixin bodytext {
-    @mixin blokks-sans 16px;
+    @mixin blokks-sans 17px;
     line-height: 1.75;
     color: var(--default-text-color);
 
@@ -34,17 +34,17 @@
     }
 
     @media (--default), (--wide) {
-        font-size: responsive 15px 16px;
+        font-size: responsive 15px 17px;
         font-range: 480px 1000px;
     }
 
     @media (--widest) {
-        font-size: 16px;
+        font-size: 17px;
     }    
 }
 
 @define-mixin listitem {
-    @mixin blokks-sans 16px;
+    @mixin blokks-sans 17px;
     line-height: 1.75;
     color: var(--default-text-color);
 
@@ -53,12 +53,12 @@
     }
 
     @media (--default), (--wide) {
-        font-size: responsive 15px 16px;
+        font-size: responsive 15px 17px;
         font-range: 480px 1000px;
     }
 
     @media (--widest) {
-        font-size: 16px;
+        font-size: 17px;
     }           
 }
 
@@ -70,6 +70,6 @@
 }
 
 @define-mixin counter {
-    @mixin blokks-mono 13px;
-    color: color(#000 alpha(30%));
+    @mixin blokks-mono 15px;
+    color: color(#000 alpha(50%));
 }
