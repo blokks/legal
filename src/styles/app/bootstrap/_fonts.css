@@ -3,7 +3,7 @@
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
-	src: url('https://static.blokks.co/fonts/Moderat-Regular.woff') format('woff');
+	src: url('https://static.blokks.hosting/fonts/Moderat-Regular.woff') format('woff');
 }
 
 @font-face {
@@ -11,7 +11,7 @@
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
-	src: url('https://static.blokks.co/fonts/Apercu-Mono.woff') format('woff');
+	src: url('https://static.blokks.hosting/fonts/Apercu-Mono.woff') format('woff');
 }
 
 @define-mixin blokks-sans $size: 1.4rem {
